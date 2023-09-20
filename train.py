@@ -9,7 +9,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingClassifier
 
 # # 2 - Fazendo a leitura do dataset e atribuindo às respectivas variáveis
-data = pd.read_csv('https://raw.githubusercontent.com/renansantosmendes/lectures-cdas-2023/master/fetal_health.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/'
+                   'renansantosmendes/lectures-cdas-2023'
+                    '/master/fetal_health.csv')
 
 # # 3 - Preparando o dado antes de iniciar o treino do modelo# %%
 features_to_remove = data.columns[7:]
